@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "agent-command-center": {
+      "command": "node",
+      "args": ["/root/agent-command-center-mcp/dist/index.js"],
+      "env": {
+        "ACC_API_KEY": "YOUR_API_KEY_HERE",
+        "ACC_ORG_ID": "eb4e3340-c1e8-4b4a-b4b7-f67f997d3d7c",
+        "ACC_API_BASE_URL": "https://echabeoiglitgjcgxkbj.supabase.co/functions/v1/agent-api"
+      }
+    }
+  }
+}
