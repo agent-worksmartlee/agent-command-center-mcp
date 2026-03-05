@@ -14,6 +14,8 @@
   },
   "keywords": ["mcp", "agent", "task-management", "supabase", "claude"],
   "license": "ISC",
+  "files": ["dist/", ".mcp.json"],
+  "engines": { "node": ">=18" },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.27.1",
     "zod": "^4.3.6"

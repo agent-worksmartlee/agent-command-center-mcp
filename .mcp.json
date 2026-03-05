@@ -1,0 +1,11 @@
+{
+  "agent-command-center": {
+    "command": "npx",
+    "args": ["-y", "agent-command-center-mcp"],
+    "env": {
+      "ACC_API_KEY": "${ACC_API_KEY}",
+      "ACC_ORG_ID": "${ACC_ORG_ID}",
+      "ACC_API_BASE_URL": "${ACC_API_BASE_URL}"
+    }
+  }
+}
